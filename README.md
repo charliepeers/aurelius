@@ -1,16 +1,21 @@
-# React + Vite
+# Aurelius.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> "No man is free who is not master of himself." - Epictetus
 
-Currently, two official plugins are available:
+### The Concept
+Aurelius is a minimalist, ephemeral morning journal for the Stoic mind.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In an era of digital hoarding, Aurelius enforces scarcity. Users receive **one** daily prompt derived from Stoic philosophy.
 
-## React Compiler
+**The Constraint** The user has a strictly limited window (5 minutes) to answer. Once saved, the entry is immutable. The ink is dry. This forces clarity of thought over perfectionism.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### The Stack
+* React(Vite) + Tailwind CSS for Frontend
+* Minimalist typographic interface (EB Garamond) for the Design
+* Local persistence (mvp)/MongoDB (Planned v2)
 
-## Expanding the ESLint configuration
+### Why I built this
+I wanted a tool to clear my head before engineering sprints that didn't distract me with complex UI or social features. I believe software should sometimes do *less* to help us focus *more*.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Created by Charlie Peers*
