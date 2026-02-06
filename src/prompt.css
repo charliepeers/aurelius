@@ -1,0 +1,22 @@
+.header{
+  max-width: 42rem;
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.date{
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.quote{
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.author{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
